@@ -1,7 +1,8 @@
 FROM microsoft/aspnet:vs-1.0.0-beta4
 
-ADD . /app
+COPY . /app
+WORKDIR /app
+RUN ["dnu", "restore"]
 
-WORKDIR /app/approot/src/WebsiteOnDocker
-
-ENTRYPOINT ["dnx", ".", "Kestrel", "--server.urls", "http://localhost:80"]
+EXPOSE 5005
+ENTRYPOINT ["dnx", ".", "kestrel"]
