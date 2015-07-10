@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "WebsiteOnDocker"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-WebsiteOnDocker-608784fc-501b-4bd3-ade5-c2c6f23d5538;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
