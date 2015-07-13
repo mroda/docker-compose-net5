@@ -1,9 +1,7 @@
 webvnext:
   build: .
   ports:
-   - "5000"
-  volumes:
-   - .:/app
+   - "5005"
   links:
    - redis
 redis:

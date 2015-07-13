@@ -5,4 +5,4 @@ WORKDIR /app
 RUN ["dnu", "restore"]
 
 EXPOSE 5005
-ENTRYPOINT ["dnx", ".", "kestrel"]
+ENTRYPOINT ["dnx", "./src/EmptyMVC", "kestrel"]

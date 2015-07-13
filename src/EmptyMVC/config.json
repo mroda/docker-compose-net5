@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "EmptyMVC"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-EmptyMVC-8d677c66-e9a4-423e-8cbf-f7a9425c61e0;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
