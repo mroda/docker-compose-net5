@@ -4,4 +4,4 @@ ADD . /app
 
 WORKDIR /app/approot/src/EmptyMVC
 
-ENTRYPOINT ["dnx", ".", "Kestrel", "--server.urls", "http://localhost:80"]
+ENTRYPOINT ["dnx", "Kestrel"]
