@@ -1,8 +1,7 @@
 FROM microsoft/aspnet:vs-1.0.0-beta4
 
-COPY . /app
-WORKDIR /app
-RUN ["dnu", "restore"]
+ADD . /app
 
-EXPOSE 5005
-ENTRYPOINT ["dnx", "./src/EmptyMVC", "kestrel"]
+WORKDIR /app/approot/src/EmptyMVC}
+
+ENTRYPOINT ["dnx", ".", "Kestrel", "--server.urls", "http://localhost:80"]
