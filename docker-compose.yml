@@ -6,5 +6,5 @@ webvnext:
    - .:/app
   links:
    - redis
-redis:
+redisnext:
   image: redis
